@@ -1,2 +1,43 @@
 /* 'Forum' and 'Inter' typefaces imported */
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap');
+
+html{
+    font-family: 'Forum', sans-serif;
+    font-size: 62.5%;
+}
+
+header{
+    height: 11vh;
+    border-bottom: 1px solid black;
+    
+}
+.header-wrapper{
+    height: 100%;
+    max-width:120rem;
+    margin: auto;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-size: 4.5rem;
+    flex-basis: 15%;
+}
+
+header nav{
+    flex-basis: 65%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-form{
+    flex-basis:15%;
+}
+.sc-icons{
+    flex-basis: 5%;
+}
